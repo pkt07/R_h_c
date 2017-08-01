@@ -1,0 +1,34 @@
+.ind
+{
+		position:absolute;
+		top:22px;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+.nav {
+  list-style-type:none;
+  display:flex;
+  flex-wrap: nowrap;
+  width:100%;
+  background:#222;
+  position:absolute;
+  top:180px;
+  margin-left:-65px;
+  width:1150px;
+  border-radius:8px;
+
+}
+.navItem, .navItem a {
+  display:inline-block;
+  flex-grow: 1;
+}
+.navItem a {
+  width:100%;
+  padding-top:30px;
+  padding-bottom:30px;
+  color:white;
+  text-decoration:none;
+  text-align:center;
+  text-shadow: 1px 1px 2px rgba(34,34,34,0.4);
+  font-weight:600;
+  font-size:18px;
+}
