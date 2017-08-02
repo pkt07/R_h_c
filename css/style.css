@@ -60,7 +60,7 @@ nav a#pull {
 
 /*Styles for screen 600px and lower*/
 @media screen and (max-width: 600px) {
-  nav { 
+  nav {
       height: auto;
     }
     nav ul {
@@ -127,7 +127,7 @@ nav a#pull {
 .header{
   display: block;
   position: relative;
-  padding:20px;
+  padding:30px;
   background:linear-gradient(#3597cb,#012f47);
   z-index: 1;
 }
@@ -138,36 +138,35 @@ nav a#pull {
 }
 .main-logo{
   display: block;
-  background:#012f47;
+  background:;
   position:fixed;
-  width: 6%;
-  left: 10%;
-  margin-top: -5%;
+  width: 5%;
+  margin-top:;
   padding:;
 }
 .main-logo img{
-  position: relative;;
-  width: 60%;
+  position:relative;
+  width: 20%;
   height: auto;
   left: 20%;
 }
 
 /*-----sidebar-----*/
 .sidebar{
-  margin: 2px;
+  margin:;
   background-color: #012f47;
   color:white;
-  padding: 20px;
+  padding:;
 }
 .sidebar .sidebar-header{
   text-align: center;
   display: block;
-  padding: 5px 0;
+  padding:3px 0;
 }
 .sidebar .sidebar-list li{
   display:block;
   position:relative;
-  width: 100%;
+  width: auto;
   height:30px;
   background-color: green;
   margin: 2px;
