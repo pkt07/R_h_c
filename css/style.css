@@ -1,3 +1,9 @@
+.imd{
+  position:absolute;
+  top:25px;
+  margin-left:65px;
+  z-index:1;
+}
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -78,7 +84,7 @@ nav a#pull {
     border-right: 1px solid #576979;
   }
     nav a {
-      text-align: left;
+      text-align:left;
       width: 100%;
       text-indent: 10px;
     }
@@ -130,11 +136,13 @@ nav a#pull {
   padding:30px;
   background:linear-gradient(#3597cb,#012f47);
   z-index: 1;
+  height:180px;
 }
 .header-name{
   position: relative;
   text-align: center;
   color: white;
+  top:20px;
 }
 .main-logo{
   display: block;
@@ -153,21 +161,27 @@ nav a#pull {
 
 /*-----sidebar-----*/
 .sidebar{
-  margin:;
-  background-color: #012f47;
+  position:relative;
+  top:-20px;
+  background:linear-gradient(#012f47,#184D77);
   color:white;
-  padding:;
+  height:650px;
+  width:310px;
+  box-shadow:6px 6px 4px #888888
 }
 .sidebar .sidebar-header{
   text-align: center;
   display: block;
-  padding:3px 0;
+  font-size:45px;
+  position:relative;
+  bottom:-50px;
 }
 .sidebar .sidebar-list li{
   display:block;
   position:relative;
+  margin-left:-10px;
   width: auto;
-  height:30px;
+  height:40px;
   background-color: green;
   margin: 2px;
   text-align: center;
