@@ -1,7 +1,9 @@
 body{
   background-image:
-    -webkit-linear-gradient(125deg, transparent 30%, rgba(255,165,0, 0.75)),
-    -webkit-linear-gradient(45deg, #207261, #002B36);
+    -webkit-linear-gradient(125deg, transparent 30%, #A5CC82  ),
+    -webkit-linear-gradient(45deg, #00467F, #A5CC82);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .imd{
   position:absolute;
@@ -26,7 +28,7 @@ body{
 nav {
   height: 3em;
   width: 100%;
-  background: #455868;
+  background: linear-gradient(#14577E,#29B0AC);
   font-size: 11pt;
   font-family: 'PT Sans', Arial, sans-serif;
   font-weight: bold;
@@ -64,7 +66,7 @@ nav li:last-child a {
   border-right: 0;
 }
 nav a:hover, nav a:active {
-  background-color: #8c99a4;
+  background-color: #3C77A0;
 }
 nav a#pull {
   display: none;
@@ -139,16 +141,16 @@ nav a#pull {
 .header{
   display: block;
   position: relative;
-  padding:30px;
-  background:linear-gradient(#3597cb,#012f47);
+  padding:2px;
+  background:url("../image/1.jpg") no-repeat;
+  background-size: cover;
   z-index: 1;
   height:180px;
 }
 .header-name{
   position: relative;
   text-align: center;
-  color: white;
-  top:20px;
+  color:#153CA4;
 }
 .main-logo{
   display: block;
@@ -163,7 +165,7 @@ nav a#pull {
   width: 40%;
   height: auto;
   left: 10%;
-  top:10px;
+  top:2%;
 }
 
 /*-----sidebar-----*/
@@ -172,8 +174,8 @@ nav a#pull {
   top:-20px;
   background:linear-gradient(#5CB0DF,#184D77);
   color:white;
-  height:650px;
-  width:310px;
+  height:auto;
+  width:115%;
   box-shadow:6px 6px 4px #888888;
 }
 .sidebar .sidebar-header{
@@ -181,14 +183,13 @@ nav a#pull {
   display: block;
   font-size:45px;
   position:relative;
-  bottom:-15px;
+  top: 5px;
 }
 .sidebar .sidebar-list li{
   display:block;
   position:relative;
   right:19px;
   width: auto;
-  top:15px;
   height:auto;
   color:black;
   font-weight:bold;
@@ -196,7 +197,7 @@ nav a#pull {
   background:linear-gradient(#A4CFE7,#D8E9F3);
   margin: 2px;
   text-align:left;
-  padding:1.5px 10px;
+  padding:1px 10px;
 }
 /*-------middle part---------*/
 .noticeBoard{
@@ -215,4 +216,38 @@ nav a#pull {
   color:black;
   padding: 4px;
   background:linear-gradient(#14577E,#29B0AC);
+}
+.sidelist img{
+  position: relative;
+  width: 150px;
+  height: auto;
+  margin: 12px 0 0 -20%;
+}
+.sidelist p{
+  font-size:1em;
+  font-weight:bold;
+  color:white;
+  text-align: center;
+  margin-left:-55%;
+}
+.board img{
+  position:relative;
+  width:150px;
+  height:auto;
+  margin:5px 0 0 -20%;
+}
+.board p{
+  position:absolute;
+  width: 50%;
+  text-align: center;
+  top: 73%;
+  left: 2%;
+}
+.map img{
+  display: block;
+  position: absolute;
+  width: 62%;
+  height: auto;
+  margin-top:2%;
+  margin-left: -15%;
 }
