@@ -1,8 +1,9 @@
 .imd{
   position:absolute;
-  top:25px;
+  top:20px;
   margin-left:65px;
   z-index:1;
+
 }
 .clearfix:before,
 .clearfix:after {
@@ -154,16 +155,17 @@ nav a#pull {
 }
 .main-logo img{
   position:relative;
-  width: 20%;
+  width: 40%;
   height: auto;
-  left: 20%;
+  left: 10%;
+  top:10px;
 }
 
 /*-----sidebar-----*/
 .sidebar{
   position:relative;
   top:-20px;
-  background:linear-gradient(#012f47,#184D77);
+  background:linear-gradient(#5CB0DF,#184D77);
   color:white;
   height:650px;
   width:310px;
@@ -174,16 +176,21 @@ nav a#pull {
   display: block;
   font-size:45px;
   position:relative;
-  bottom:-50px;
+  bottom:-15px;
 }
 .sidebar .sidebar-list li{
   display:block;
   position:relative;
-  right:18px;
+  right:19px;
   width: auto;
-  top:50px;
-  height:30px;
-  background-color: green;
+  top:15px;
+  height:auto;
+  color:black;
+  font-weight:bold;
+  font-size:15px;
+  background:linear-gradient(#A4CFE7,#D8E9F3);
   margin: 2px;
-  text-align: center;
+  text-align:left;
+  padding:1.5px 10px;
 }
+ 
