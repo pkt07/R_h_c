@@ -1,3 +1,8 @@
+body{
+  background-image:
+    -webkit-linear-gradient(125deg, transparent 30%, rgba(255,165,0, 0.75)),
+    -webkit-linear-gradient(45deg, #207261, #002B36);
+}
 .imd{
   position:absolute;
   top:20px;
@@ -197,9 +202,17 @@ nav a#pull {
 .noticeBoard{
   display: block;
   border: 2px solid black;
-  background-color: #D8E9F3;
+  background:linear-gradient(#C0DCEC,#B7D0DE);
   margin: 10px;
+  font-weight:bold;
+  font-family:sans-serif;
+  box-shadow:6px 6px 4px #888888;
 }
 .box-header{
   text-align: center;
+  font-weight:bold;
+  border: 1px solid black;
+  color:black;
+  padding: 4px;
+  background:linear-gradient(#14577E,#29B0AC);
 }
