@@ -1,7 +1,7 @@
 body{
   background-image:
-    -webkit-linear-gradient(125deg, transparent 30%, #A5CC82  ),
-    -webkit-linear-gradient(45deg, #00467F, #A5CC82);
+    -webkit-linear-gradient(125deg, transparent 30%, #eee ),
+    -webkit-linear-gradient(45deg, #eee, #eee);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -162,42 +162,52 @@ nav a#pull {
 }
 .main-logo img{
   position:relative;
-  width: 40%;
+  width: 100%;
   height: auto;
   left: 10%;
-  top:2%;
+  top:-15%;
 }
 
 /*-----sidebar-----*/
 .sidebar{
   position:relative;
-  top:-20px;
-  background:linear-gradient(#5CB0DF,#184D77);
+  background:white;
   color:white;
   height:auto;
-  width:117%;
+  width: 105%;
+  overflow: hidden;
+  margin: 10px;
+  border: 2px solid black;
+  padding-left: 5%;
+  padding-bottom: 10px;
+  background:linear-gradient(#C0DCEC,#B7D0DE);
+  box-shadow:6px 6px 4px #888888;
 }
-.sidebar .sidebar-header{
-  text-align: center;
+.sidebar .list-item{
+  padding-top:; 
+}
+.sidebar h3{
+  color:#153CA4;
+  font-size: 1.3em;
+  position: relative;
   display: block;
-  font-size:45px;
-  position:relative;
-  top:5px;
+  width: 100%;
 }
-.sidebar .sidebar-list li{
-  display:block;
-  position:relative;
-  right:19px;
-  width: auto;
-  height:auto;
-  color:black;
-  font-weight:bold;
-  font-size:15px;
-  background:linear-gradient(#A4CFE7,#D8E9F3);
-  margin:2px;
-  text-align:left;
-  padding:2px 10px;
-  top:-10px;
+.sidebar ul{
+  position: relative;
+  width: 100%;
+}
+.sidebar li{
+  color: black;
+  font-size:12px;
+  position: relative;
+  display: inline-block;
+  border-left: 2px solid #153CA4;
+  padding: 0px 5px;
+  left: -15%;
+}
+.sidebar li:first-child{
+  border-left: 0;
 }
 /*-------middle part---------*/
 .noticeBoard{
@@ -215,6 +225,9 @@ nav a#pull {
   border: 1px solid black;
   color:black;
   padding: 4px;
+  position: relative;
+  width: 90%;
+  left: 5%; 
   background:linear-gradient(#14577E,#29B0AC);
 }
 .sidelist img{
@@ -226,7 +239,7 @@ nav a#pull {
 .sidelist p{
   font-size:1em;
   font-weight:bold;
-  color:white;
+  color:black;
   text-align: center;
   margin-left:-55%;
 }
@@ -243,11 +256,20 @@ nav a#pull {
   top: 73%;
   left: 2%;
 }
-.map img{
-  display: block;
-  position: absolute;
-  width: 62%;
-  height: auto;
-  margin-top:2%;
-  margin-left: -15%;
+.panel-default{
+  border:0;
+}
+.panel-group{
+  margin: 0;
+}
+.panel a{
+  color:#333;
+  font-weight:bold;
+  font-family:sans-serif;
+} 
+.panel{
+  color: black;
+  font-weight:bold;
+  font-family:sans-serif;
+  background-color:transparent;
 }
