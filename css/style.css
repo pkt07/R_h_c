@@ -150,11 +150,12 @@ nav a#pull {
 }
 .header-name{
   position: relative;
-  left:5%;
+  left:3%;
   bottom:10%;
   display: block;
   width:40%;
   color:#fff;
+  font-family:sans-serif;
 
 }
 .main-logo{
