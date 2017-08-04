@@ -141,31 +141,33 @@ nav a#pull {
 .header{
   display: block;
   position: relative;
-  padding:2px;
-  background:url("../image/1.jpg") no-repeat;
+  padding-bottom:2%;
+  background-color: #fff;
   background-size: cover;
   z-index: 1;
-  height:180px;
+  overflow: hidden;
 }
 .header-name{
   position: relative;
   text-align: center;
+  display: block;
+  width: 100%;
   color:#153CA4;
 }
 .main-logo{
   display: block;
   background:;
-  position:fixed;
-  width: 5%;
-  margin-top:;
+  position:relative;
+  width:100%;
   padding:;
 }
 .main-logo img{
   position:relative;
-  width: 100%;
+  width: 10%;
+  margin: auto;
   height: auto;
-  left: 10%;
-  top:-15%;
+  left: 45%;
+  top:;
 }
 
 /*-----sidebar-----*/
@@ -177,11 +179,9 @@ nav a#pull {
   width: 105%;
   overflow: hidden;
   margin: 10px;
-  border: 2px solid black;
   padding-left: 5%;
   padding-bottom: 10px;
-  background:linear-gradient(#C0DCEC,#B7D0DE);
-  box-shadow:6px 6px 4px #888888;
+ 
 }
 .sidebar .list-item{
   padding-top:; 
@@ -212,12 +212,12 @@ nav a#pull {
 /*-------middle part---------*/
 .noticeBoard{
   display: block;
-  border: 2px solid black;
-  background:linear-gradient(#C0DCEC,#B7D0DE);
+  
+ 
   margin: 10px;
   font-weight:bold;
   font-family:sans-serif;
-  box-shadow:6px 6px 4px #888888;
+  
 }
 .box-header{
   text-align: center;
