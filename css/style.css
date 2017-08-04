@@ -145,13 +145,13 @@ nav a#pull {
   background-size: cover;
   z-index: 1;
   overflow: hidden;
-  height:175px;
+  height:auto;
+  padding: 1% auto;
   background:radial-gradient(#95DBFD,#034083);
 }
 .header-name{
   position: relative;
   left:3%;
-  bottom:10%;
   display: block;
   width:40%;
   color:#fff;
@@ -188,10 +188,10 @@ nav a#pull {
   margin: 10px;
   padding-left: 5%;
   padding-bottom: 10px;
- 
+
 }
 .sidebar .list-item{
-  padding-top:; 
+  padding-top:;
 }
 .sidebar h3{
   color:#153CA4;
@@ -219,12 +219,12 @@ nav a#pull {
 /*-------middle part---------*/
 .noticeBoard{
   display: block;
-  
- 
+
+
   margin: 10px;
   font-weight:bold;
   font-family:sans-serif;
-  
+
 }
 .box-header{
   text-align: center;
@@ -234,7 +234,7 @@ nav a#pull {
   padding: 4px;
   position: relative;
   width: 90%;
-  left: 5%; 
+  left: 5%;
   background:linear-gradient(#14577E,#29B0AC);
 }
 .sidelist img{
@@ -273,7 +273,7 @@ nav a#pull {
   color:#333;
   font-weight:bold;
   font-family:sans-serif;
-} 
+}
 .panel{
   color: black;
   font-weight:bold;
