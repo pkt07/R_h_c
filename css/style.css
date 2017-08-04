@@ -127,25 +127,19 @@ nav a#pull {
 /*-----sidebar-----*/
 .sidebar{
   position:relative;
-  background:;
-  color:white;
   height:auto;
-  width: 105%;
   overflow: hidden;
-  margin: 10px;
   padding-left: 5%;
-  padding-bottom: 10px;
 
 }
 .sidebar .list-item{
-  padding-top:;
 }
 .sidebar h3{
   color:#153CA4;
   font-size: 1.3em;
   position: relative;
   display: block;
-  width: 100%;
+  width:  ;
 }
 .sidebar ul{
   position: relative;
@@ -157,7 +151,8 @@ nav a#pull {
   position: relative;
   display: inline-block;
   border-left: 2px solid #153CA4;
-  padding: 0px 5px;
+  margin:0 5px;
+  padding: 0 5px;
   left: -15%;
 }
 .sidebar li:first-child{
