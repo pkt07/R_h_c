@@ -141,25 +141,28 @@ nav a#pull {
 .header{
   display: block;
   position: relative;
-  padding-bottom:2%;
   background-color: #fff;
   background-size: cover;
   z-index: 1;
   overflow: hidden;
+  height:175px;
+  background:radial-gradient(#95DBFD,#034083);
 }
 .header-name{
   position: relative;
-  text-align: center;
+  left:5%;
+  bottom:10%;
   display: block;
-  width: 100%;
-  color:#153CA4;
+  width:40%;
+  color:#fff;
+
 }
 .main-logo{
   display: block;
-  background:;
   position:relative;
   width:100%;
-  padding:;
+  margin:auto;
+  top:12%;
 }
 .main-logo img{
   position:relative;
@@ -167,13 +170,16 @@ nav a#pull {
   margin: auto;
   height: auto;
   left: 45%;
-  top:;
+  border:5px solid #eee;
+  border-radius:50%;
+  border-image-source: 2%;
+  background:white;
 }
 
 /*-----sidebar-----*/
 .sidebar{
   position:relative;
-  background:white;
+  background:;
   color:white;
   height:auto;
   width: 105%;
