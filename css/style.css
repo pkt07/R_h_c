@@ -119,7 +119,7 @@ nav a#pull {
   margin-bottom: -3%;
   left: 45%;
   border:5px solid #eee;
-  border-radius:50%;
+  border-radius:50%; 
   border-image-source: 2%;
   background:white;
 }
@@ -128,35 +128,44 @@ nav a#pull {
 .sidebar{
   position:relative;
   height:auto;
-  overflow: hidden;
+  overflow: ;
   padding-left: 5%;
-
 }
 .sidebar .list-item{
+  margin-bottom: -3%;
 }
 .sidebar h3{
   color:#153CA4;
   font-size: 1.3em;
   position: relative;
   display: block;
-  width:  ;
+  font-weight:bold;
+  margin-left:6%;
+  margin-bottom: -0%;
 }
 .sidebar ul{
   position: relative;
   width: 100%;
+  margin-left:6%;
+  font-size:0.2em; 
+
 }
 .sidebar li{
   color: black;
   font-size:12px;
+  font-weight:bold;
   position: relative;
   display: inline-block;
   border-left: 2px solid #153CA4;
-  margin:0 5px;
-  padding: 0 5px;
-  left: -15%;
+  padding:0 5px ;
+  text-align: center;
+  left: -18%;
 }
 .sidebar li:first-child{
   border-left: 0;
+  padding:2px;
+  position:relative;
+  margin-bottom:-2%;
 }
 /*-------middle part---------*/
 .noticeBoard{
@@ -222,6 +231,34 @@ nav a#pull {
   font-family:sans-serif;
   background-color:transparent;
 }
+
+.icon-box{
+  display: block;
+  position: relative;
+  margin-bottom:35%;
+  padding: 10px;
+  font-size: 25px;
+}
+.icon-box i{
+  display: block;
+  position: relative;
+  font-size: 3em;
+  padding:15px;
+  bottom:-25%;
+  color:#1274A9;
+}
+.icon-box p{
+  display: block;
+  position: relative;
+  font-size:18px;
+  bottom:-25px;
+  margin-left:10%;
+  }
+  .map{
+    position:relative;
+    color:black;
+    text-align:center;
+  }
 
 
 
