@@ -1,9 +1,5 @@
 body{
-  background-image:
-    -webkit-linear-gradient(125deg, transparent 30%, #eee ),
-    -webkit-linear-gradient(45deg, #eee, #eee);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: #eeeeee;
 }
 .imd{
   position:absolute;
@@ -170,8 +166,6 @@ nav a#pull {
 /*-------middle part---------*/
 .noticeBoard{
   display: block;
-
-
   margin: 10px;
   font-weight:bold;
   font-family:sans-serif;
@@ -186,7 +180,8 @@ nav a#pull {
   position: relative;
   width: 90%;
   left: 5%;
-  background:linear-gradient(#14577E,#29B0AC);
+    background:radial-gradient(#95DBFD,#034083);
+  
 }
 .sidelist img{
   position: relative;
