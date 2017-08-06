@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
 body{
   background-color: #eeeeee;
+  font-family: sans-serif;
 }
 .imd{
   position:absolute;
@@ -115,7 +117,7 @@ nav a#pull {
   margin-bottom: -3%;
   left: 45%;
   border:5px solid #eee;
-  border-radius:50%; 
+  border-radius:50%;
   border-image-source: 2%;
   background:white;
 }
@@ -143,7 +145,7 @@ nav a#pull {
   position: relative;
   width: 100%;
   margin-left:6%;
-  font-size:0.2em; 
+  font-size:0.2em;
 
 }
 .sidebar li{
@@ -167,13 +169,13 @@ nav a#pull {
 .noticeBoard{
   display: block;
   margin: 10px;
-  font-weight:bold;
-  font-family:sans-serif;
+  font-weight:;
+  font-family:;
 
 }
 .box-header{
   text-align: center;
-  font-weight:bold;
+  font-weight:500;
   border: 1px solid black;
   color:black;
   padding: 4px;
@@ -181,7 +183,7 @@ nav a#pull {
   width: 90%;
   left: 5%;
     background:radial-gradient(#95DBFD,#034083);
-  
+
 }
 .sidelist img{
   position: relative;
@@ -218,12 +220,12 @@ nav a#pull {
 .panel a{
   color:#333;
   font-weight:bold;
-  font-family:sans-serif;
+  font-family:;
 }
 .panel{
   color: black;
   font-weight:bold;
-  font-family:sans-serif;
+  font-family:;
   background-color:transparent;
 }
 
