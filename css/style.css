@@ -80,7 +80,7 @@ nav a#pull {
   z-index: 1;
   overflow: hidden;
   height:auto;
-  background:radial-gradient(#95DBFD,#034083);
+  background:linear-gradient(#FF9933,#FFFFFF,#138808);
   padding-top: 1%;
 }
 .header-name{
@@ -182,7 +182,7 @@ nav a#pull {
   position: relative;
   width: 90%;
   left: 5%;
-    background:radial-gradient(#95DBFD,#034083);
+    background:linear-gradient(#FF9933,#FFFFFF,#138808);
 
 }
 .sidelist img{
