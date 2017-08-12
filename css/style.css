@@ -69,8 +69,6 @@ nav a:hover, nav a:active {
 nav a#pull {
   display: none;
 }
-
-
 /*-----main header----*/
 .header{
   display: block;
@@ -80,8 +78,7 @@ nav a#pull {
   z-index: 1;
   overflow: hidden;
   height:auto;
-  background:linear-gradient(#FF9933,#FFFFFF,#138808);
-  padding-top: 1%;
+  background-color:#eee;
 }
 .header-name{
   position: relative;
@@ -95,6 +92,7 @@ nav a#pull {
   position: relative;
   width: 50%;
   float: left;
+  color: black;
 }
 .header-name .left{
   text-align: left;
@@ -103,42 +101,34 @@ nav a#pull {
   text-align: right;
 }
 .main-logo{
+  background-size:;
   display: block;
   position:relative;
   width:100%;
   margin:auto;
-  top:12%;
 }
 .main-logo img{
   position:relative;
   width: 10%;
   margin: auto;
   height: auto;
-  margin-bottom: -3%;
+  margin-bottom:;
   left: 45%;
-  border:5px solid #eee;
-  border-radius:50%;
-  border-image-source: 2%;
-  background:white;
-}
-
-/*-----sidebar-----*/
+}/*-----sidebar-----*/
 .sidebar{
   position:relative;
   height:auto;
-  overflow: ;
-  padding-left: 5%;
 }
 .sidebar .list-item{
   margin-bottom: -3%;
 }
 .sidebar h3{
   color:#153CA4;
-  font-size: 1.3em;
+  font-size: 1.5em;
   position: relative;
   display: block;
   font-weight:bold;
-  margin-left:6%;
+  margin-left:5%;
   margin-bottom: -0%;
 }
 .sidebar ul{
@@ -150,7 +140,7 @@ nav a#pull {
 }
 .sidebar li{
   color: black;
-  font-size:12px;
+  font-size:15px;
   font-weight:bold;
   position: relative;
   display: inline-block;
@@ -169,20 +159,15 @@ nav a#pull {
 .noticeBoard{
   display: block;
   margin: 10px;
-  font-weight:;
-  font-family:;
-
 }
 .box-header{
   text-align: center;
   font-weight:500;
-  border: 1px solid black;
   color:black;
-  padding: 4px;
+  padding: 5px;
   position: relative;
   width: 90%;
-  left: 5%;
-    background:linear-gradient(#FF9933,#FFFFFF,#138808);
+  background-color: #eee;
 
 }
 .sidelist img{
@@ -220,12 +205,10 @@ nav a#pull {
 .panel a{
   color:#333;
   font-weight:bold;
-  font-family:;
 }
 .panel{
   color: black;
   font-weight:bold;
-  font-family:;
   background-color:transparent;
 }
 
@@ -257,9 +240,23 @@ nav a#pull {
     text-align:center;
   }
 
+.Noticelist ul li{
+  font-weight:bold;
+}
 
-
-/*Styles for screen 600px and lower*/
+input[type=text] {
+    width:80%;;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    position: relative;
+    margin-top:10%;
+}
 @media screen and (max-width: 600px) {
   nav {
       height: auto;
@@ -328,5 +325,6 @@ nav a#pull {
   }
   .header-name h2{
     font-size:1em;
+
   }
 }
