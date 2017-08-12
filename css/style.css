@@ -86,7 +86,7 @@ nav a#pull {
   width:100%;
   color:#fff;
   font-family:sans-serif;
-  padding: 0 4%;
+  padding: 0 2%;
 }
 .header-name h2{
   position: relative;
@@ -114,6 +114,7 @@ nav a#pull {
   height: auto;
   margin-bottom:;
   left: 45%;
+  margin-bottom:-5%;
 }/*-----sidebar-----*/
 .sidebar{
   position:relative;
@@ -128,19 +129,16 @@ nav a#pull {
   position: relative;
   display: block;
   font-weight:bold;
-  margin-left:5%;
-  margin-bottom: -0%;
+  margin-left:;
 }
 .sidebar ul{
   position: relative;
-  width: 100%;
-  margin-left:6%;
   font-size:0.2em;
 
 }
 .sidebar li{
   color: black;
-  font-size:15px;
+  font-size:5em;
   font-weight:bold;
   position: relative;
   display: inline-block;
@@ -157,8 +155,7 @@ nav a#pull {
 }
 /*-------middle part---------*/
 .noticeBoard{
-  display: block;
-  margin: 10px;
+  
 }
 .box-header{
   text-align: center;
@@ -166,36 +163,11 @@ nav a#pull {
   color:black;
   padding: 5px;
   position: relative;
-  width: 90%;
+  width: 80%;
   background-color: #eee;
 
 }
-.sidelist img{
-  position: relative;
-  width: 150px;
-  height: auto;
-  margin: 12px 0 0 -20%;
-}
-.sidelist p{
-  font-size:1em;
-  font-weight:bold;
-  color:black;
-  text-align: center;
-  margin-left:-55%;
-}
-.board img{
-  position:relative;
-  width:150px;
-  height:auto;
-  margin:5px 0 0 -20%;
-}
-.board p{
-  position:absolute;
-  width: 50%;
-  text-align: center;
-  top: 73%;
-  left: 2%;
-}
+
 .panel-default{
   border:0;
 }
@@ -212,50 +184,27 @@ nav a#pull {
   background-color:transparent;
 }
 
-.icon-box{
-  display: block;
-  position: relative;
-  margin-bottom:35%;
-  padding: 10px;
-  font-size: 25px;
+.search{
+  margin-top:6%;
 }
-.icon-box i{
-  display: block;
-  position: relative;
-  font-size: 3em;
-  padding:15px;
-  bottom:-25%;
-  color:#1274A9;
-}
-.icon-box p{
-  display: block;
-  position: relative;
-  font-size:18px;
-  bottom:-25px;
-  margin-left:10%;
-  }
-  .map{
-    position:relative;
-    color:black;
-    text-align:center;
-  }
-
-.Noticelist ul li{
-  font-weight:bold;
-}
-
-input[type=text] {
-    width:80%;;
+input[type="text"] {
+    width:70%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 15px;
     font-size: 16px;
+    float: left;
     background-color: white;
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    padding: 12px 20px 12px 12px;
     position: relative;
-    margin-top:10%;
+    margin-top:;
+}
+.search button{
+  position:relative;
+  width: auto;
+  float: right;
+  border-radius:16px; 
+  background: linear-gradient(#14577E,#29B0AC);
 }
 @media screen and (max-width: 600px) {
   nav {
@@ -327,4 +276,7 @@ input[type=text] {
     font-size:1em;
 
   }
+}
+@media screen and (max-width: 992px){
+ 
 }
