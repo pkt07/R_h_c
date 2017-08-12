@@ -7,7 +7,6 @@ body{
   position:absolute;
   top:20px;
   margin-left:65px;
-  z-index:1;
 
 }
 .clearfix:before,
