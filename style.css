@@ -11,6 +11,7 @@ body{
   z-index: 1;
   overflow: hidden;
   height:auto;
+  background-color:red;
 }
 .header-name{
   position: relative;
