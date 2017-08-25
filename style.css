@@ -2,8 +2,43 @@
 body{
   background-color:transparent;
   font-family: sans-serif;
- /* background:#fff url('../image/index3.jpg') no-repeat fixed center;*/
-    background-size: cover;
+  background:#fff url('../image/index3.jpg') no-repeat fixed center;
+  background-size: cover;
+}
+.header{
+  display: block;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  height:auto;
+}
+.header-name{
+  position: relative;
+  display: block;
+  color:#fff;
+  font-family:sans-serif;
+  padding: 0 2%;
+}
+.header-name h2{
+  position: relative;
+  display: block;
+  color: black;
+}
+
+.main-logo{
+  background-size:;
+  display: block;
+  position:relative;
+  width:;
+  margin:;
+}
+.main-logo img{
+  position:relative;
+  margin: auto;
+  height: auto;
+  margin-bottom:;
+  left:45%;
+  margin-bottom:-7%;
 }
 .imd{
   position:absolute;
@@ -30,7 +65,7 @@ body{
     background-size:cover;
     margin-top:;
     background-position: center;
-    height:76vh;
+    height:80vh;
 }
 /* Navigation menu */
 nav {
@@ -63,7 +98,7 @@ nav a {
 nav li a {
   border-right: 1px solid #576979;
   box-sizing:border-box;
-  width:125px;
+  width:100px;
 }
 nav li:last-child a {
   border-right: 0;
@@ -75,58 +110,10 @@ nav a #pull {
   display: none;
 }
 /*-----main header----*/
-.header{
-  display: block;
-  position: relative;
-  background-color:;
-  background-size: cover;
-  z-index: 1;
-  overflow: hidden;
-  height:auto;
-  /*background:url("../image/headerback.jpg") no-repeat fixed top;
-  background-size:cover;*/
-}
-.header-name{
-  position: relative;
-  display: block;
-  width:100%;
-  color:#fff;
-  font-family:sans-serif;
-  padding: 0 2%;
-}
-.header-name h2{
-  position: relative;
-  width: 50%;
-  float: left;
-  color: black;
-  font-size:3em;
-}
-.header-name .left{
-  text-align: left;
-}
-.header-name .right{
-  text-align: right;
-}
-.main-logo{
-  background-size:;
-  display: block;
-  position:relative;
-  width:100%;
-  margin:auto;
-}
-.main-logo img{
-  position:relative;
-  width: 10%;
-  margin: auto;
-  height: auto;
-  margin-bottom:;
-  left: 45%;
-  margin-bottom:-7%;
-}/*-----sidebar-----*/
+/*-----sidebar-----*/
 .sidebar{
   position:relative;
   height:auto;
-
   background-image: url(../image/bg_transparent.png);
     background-position-x: initial;
     background-position-y: initial;
@@ -189,10 +176,8 @@ nav a #pull {
   
 }
 .noticeBoard{
-  padding-top: 5px;
-  width:80%;
-  left:10%;
-  margin:30px auto 0;
+  padding-top: 20px;
+  margin-top: 25px;
 }
 .Noticelist{
   padding:10px;
