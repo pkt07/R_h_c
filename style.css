@@ -65,7 +65,7 @@ body{
     background-size:cover;
     margin-top:;
     background-position: center;
-    height:80vh;
+    height:;
 }
 /* Navigation menu */
 nav {
@@ -81,7 +81,7 @@ nav {
 nav ul {
   padding: 0;
   margin: 0 auto;
-  width: 900px;
+  width: auto;
 }
 nav li {
   display: inline;
@@ -98,7 +98,7 @@ nav a {
 nav li a {
   border-right: 1px solid #576979;
   box-sizing:border-box;
-  width:100px;
+  width:auto;
 }
 nav li:last-child a {
   border-right: 0;
@@ -125,11 +125,11 @@ nav a #pull {
     background-clip: initial;
     background-color: initial;
     border-radius: 15px;
-    margin-top:5%;
+    margin-top:;
   
 }
 .sidebar .list-item{
-  margin-bottom: -3%;
+  margin-bottom: -1%;
 }
 .sidebar h3{
   color:#089FAF;
@@ -232,17 +232,17 @@ nav a #pull {
   top: 100%;
   z-index: 200;
   background-color:#0868AF;
-  width: auto;
+  width:auto;
 }
 
 .gn-submenu ul{
-  width: 130px;
+  width: auto;
   display: ;
 }
 .gn-submenu ul li{
   position: relative;
   display: block;
-  width:;
+  width:auto;
   list-style-type: none;
 }
 .gn-submenu ul li a{
@@ -298,6 +298,9 @@ padding:2px 5px;
   width:100%;
   border-bottom:1px solid blue;
   font-weight:bold;
+}
+.searchbar{
+  
 }
 @media screen and (max-width: 600px) {
   .main-container{
