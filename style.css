@@ -112,9 +112,9 @@ nav a #pull {
 /*-----main header----*/
 /*-----sidebar-----*/
 .sidebar{
-  position:relative;
-  height:auto;
-  background-image: url(../image/bg_transparent.png);
+    position:relative;
+    height:auto;
+    background-image: url(../image/bg_transparent.png);
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
@@ -138,6 +138,7 @@ nav a #pull {
   display: block;
   font-weight:bold;
   margin-left:4%;
+  overflow:hidden;
 }
 .sidebar ul{
   position: relative;
