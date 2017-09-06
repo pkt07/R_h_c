@@ -112,9 +112,9 @@
     
             </ul>
           </div>
-          <div class="list-item">
+        <!--   <div class="list-item">
            <h3>Notice Board / Latest Updates</h3>
-          </div>
+          </div> -->
           
         </div>
       </div>
@@ -159,8 +159,8 @@
 
     <script>
       $(document).ready(function(){
-          $('#show-menu').click(function(){
-          $('#sidebarmenu').toggleClass('on-hover-hidden on-hover-show');
+          $('#show-menu').hover(function(){
+          $('#sidebarmenu').addClass('on-hover-show');
         });
         //   $('#show-menu').mouseout(function(){
         //   $('#sidebarmenu').removeClass('on-hover-show');
@@ -168,7 +168,9 @@
         //   $('#sidebarmenu').mouseout(function(){
         //   $('#sidebarmenu').removeClass('on-hover-show');
         // });
-         
+         $('#show-menu').click(function(){
+          $('#sidebarmenu').removeClass('on-hover-show');
+        });
 
 
       });
