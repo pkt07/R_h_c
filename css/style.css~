@@ -126,7 +126,7 @@ nav a #pull {
 .sidebar{
   position:relative;
   height:auto;
-  display: block;
+
   background-image: url(../image/bg_transparent.png);
     background-position-x: initial;
     background-position-y: initial;
