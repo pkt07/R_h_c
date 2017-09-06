@@ -112,9 +112,9 @@ nav a #pull {
 /*-----main header----*/
 /*-----sidebar-----*/
 .sidebar{
-  position:relative;
-  height:auto;
-  background-image: url(../image/bg_transparent.png);
+    position:relative;
+    height:auto;
+    background-image: url(../image/bg_transparent.png);
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
@@ -138,6 +138,7 @@ nav a #pull {
   display: block;
   font-weight:bold;
   margin-left:4%;
+  overflow:hidden;
 }
 .sidebar ul{
   position: relative;
@@ -329,6 +330,12 @@ padding:2px 5px;
       width: 100%;
       text-indent: 10px;
     }
+    .header-name h2{
+  position: relative;
+  display: block;
+  color: black;
+  font-size:0.5em;
+}
 }
 
 /* Hide navigation for screens 600px and lower */
@@ -358,7 +365,7 @@ padding:2px 5px;
     top: 5px;
   }
   .header-name h2{
-    font-size:1em;
+    font-size:0.5em;
   }
 }
 
@@ -375,10 +382,15 @@ padding:2px 5px;
     border-bottom: 1px solid #576979;
   }
   .header-name h2{
-    font-size:1em;
+    font-size:0.5em;
 
   }
 }
 @media screen and (max-width: 992px){
- 
+  .header-name h2{
+  position: relative;
+  display: block;
+  color: black;
+  font-size:0.5em;
+}
 }
