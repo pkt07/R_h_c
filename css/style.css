@@ -107,21 +107,14 @@ nav a #pull {
 .header-name .right{
   text-align: right;
 }
-.main-logo{
-  background-size:;
-  display: block;
+.header-name img{
   position:relative;
-  width:100%;
-  margin:auto;
-}
-.main-logo img{
-  position:relative;
-  width: 10%;
+  width:120px;
   margin: auto;
   height: auto;
   margin-bottom:;
-  left: 45%;
-  margin-bottom:-7%;
+  left:;
+  margin-bottom:;
 }/*-----sidebar-----*/
 .sidebar{
   position:relative;
@@ -390,8 +383,17 @@ input[type="text"] {
     top: 5px;
   }
   .header-name h2{
-    font-size:1em;
-  }
+    font-size:;
+   }
+ .header-name img{
+  position:relative;
+  width:60px;
+  margin: auto;
+  height: auto;
+  margin-bottom:;
+  left:;
+  margin-bottom:;
+}
 }
 
 /*Smartphone*/
@@ -407,7 +409,8 @@ input[type="text"] {
     border-bottom: 1px solid #576979;
   }
   .header-name h2{
-    font-size:.5em;
+    top:20%;
+    font-size:1.1em;
 
   }
 }
