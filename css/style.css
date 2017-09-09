@@ -100,6 +100,7 @@ nav a #pull {
   float: left;
   color: black;
   font-size:3em;
+  margin-left:30px;
 }
 .header-name .left{
   text-align: left;
@@ -241,19 +242,22 @@ nav a #pull {
   z-index: 200;
   background-color:#0868AF;
   width: auto;
+  position:;
+  left:-100%;
 }
 
 .gn-submenu ul{
-  width: 130px;
-  display: ;
+  width: 400px;
+
 }
 .gn-submenu ul li{
   position: relative;
   display: block;
-  width:;
+  width:100%;
   list-style-type: none;
 }
 .gn-submenu ul li a{
+  width:100%;
   border-right: 0;
   border-top: 1px solid black
 }
@@ -310,7 +314,81 @@ input[type="text"] {
   border-bottom:1px solid blue;
   font-weight:bold;
 }
-@media screen and (max-width: 600px) {
+
+.go-to-main{
+  position: absolute;
+  right: 3%;
+  top: 7%; 
+}
+.go-to-main button{
+  background: linear-gradient(#14577E,#29B0AC);
+  border-radius: 15px;
+  padding:0 10px;
+}
+
+
+
+@media screen and (max-width: 992px){
+  nav {
+    border-bottom: 0;
+  }
+  nav ul {
+    display: none;
+    height: auto;
+  }
+  nav a#pull {
+    display: block;
+    background-color: #222;
+    width: 100%;
+    position: relative;
+  }
+  nav a#pull:after {
+    content:"☰";
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+  }
+  .header-name h2{
+    position: relative;
+    top:50%;
+    width: 50%;
+    font-size:2.3em;
+
+  }
+ .header-name img{
+  position:relative;
+  width:120px;
+  margin: auto;
+  height: auto;
+  margin-bottom:;
+  left:;
+  margin-bottom:;
+}
+input[type="text"] {
+    width:55%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius:7px;
+    font-size: 16px;
+    float: left;
+    background-color: white;
+    padding: 12px 20px 12px 12px;
+    position: relative;
+}
+.search button{
+  position:relative;
+  width: auto;
+  float: right; 
+  background: linear-gradient(#14577E,#29B0AC);
+}
+ 
+}
+@media screen and (max-width: 772px) {
   .main-container{
     height:auto;
     background-size: cover;
@@ -343,17 +421,33 @@ input[type="text"] {
     h2{
       font-size:15px;
     }
-    .search{
-      overflow: hidden;
-      display: none;
-    }
-    .col-md-4{
-      width:400px;
-      margin-left:-30px;
-    }
-    .col-md-3{
-      width:320px;
-    }
+    .gn-submenu{
+    position: absolute;
+    display: none;
+    top: 100%;
+    z-index: 200;
+    background-color:#0868AF;
+    width: auto;
+    position:;
+    left:0;
+  }
+
+  .gn-submenu ul{
+    width: 100%;
+
+  }
+  .gn-submenu ul li{
+    position: relative;
+    display: block;
+    width:100%;
+    list-style-type: none;
+  }
+  .gn-submenu ul li a{
+    width:100%;
+    border-right: 0;
+    border-top: 1px solid black
+  }
+    
 }
 
 /* Hide navigation for screens 600px and lower */
@@ -364,6 +458,13 @@ input[type="text"] {
   nav ul {
     display: none;
     height: auto;
+  }
+  nav ul li{
+    width: 100%;
+  }
+  nav ul li a{
+    text-align: center;
+    width: 100%;
   }
   nav a#pull {
     display: block;
@@ -383,8 +484,12 @@ input[type="text"] {
     top: 5px;
   }
   .header-name h2{
-    font-size:;
-   }
+    position: relative;
+    top:50%;
+    width: auto;
+    font-size:1.4em;
+
+  }
  .header-name img{
   position:relative;
   width:60px;
@@ -393,6 +498,11 @@ input[type="text"] {
   margin-bottom:;
   left:;
   margin-bottom:;
+}
+.col-md-4{
+  position: relative;
+  width: 120%;
+  left:-10%;
 }
 }
 
@@ -413,7 +523,5 @@ input[type="text"] {
     font-size:1.1em;
 
   }
-}
-@media screen and (max-width: 992px){
- 
+
 }
